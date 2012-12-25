@@ -235,7 +235,7 @@ h1 {
 
 h2 {
   color: #544a44;
-  text-shadow: 1px 1px 1px rgba(0,0,0,.2);
+  text-shadow: 1px 1px 0px rgba(0,0,0,.2);
   font-size: 18px;
   font-weight: normal;
   font-family: 'Merriweather', serif;
@@ -243,12 +243,8 @@ h2 {
 }
 
 h3 {
-  color: #00a0b0;
-  text-shadow: 1px 1px 1px rgba(0,0,0,.2);
-  font-size: 18px;
-  font-weight: normal;
-  font-family: 'Merriweather', serif;
-  text-transform: lowercase;
+  line-height: 0;
+  margin-top: 1.5em;
 }
 
 /* Wrapper to center */
@@ -335,6 +331,10 @@ h3 {
   width: 645px;
   -moz-border-radius-bottomleft: 80px;
   -moz-border-radius-topright: 80px;
+}
+
+#blog_body {
+  padding: 0 15px;
 }
 
 
